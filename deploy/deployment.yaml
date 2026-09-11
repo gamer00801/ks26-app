@@ -52,7 +52,7 @@ spec:
               valueFrom:
                 configMapKeyRef:
                   name: ks26-app-config
-                  key: docker.io/yansheng133/ks26-app:group3-36b6195
+                  key: IMAGE_TAG
             - name: INFERENCE_URL
               valueFrom:
                 configMapKeyRef:
